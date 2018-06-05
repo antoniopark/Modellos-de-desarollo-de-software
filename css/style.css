@@ -1,0 +1,528 @@
+@font-face {
+  font-family: "Bebas-Neue";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/Bebas-Neue.eot");
+  src: url("../font/Bebas-Neue.otf"), url("../font/Bebas-Neue.ttf"); }
+
+@font-face {
+  font-family: "Socialico";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/Socialico.eot");
+  src: url("../font/Socialico.otf"), url("../font/Socialico.ttf"); }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 100%; }
+
+.itim {
+  font-family: 'Itim', cursive; }
+
+.calling2 {
+  font-family: 'Chivo', sans-serif; }
+
+.calling {
+  font-family: 'Lobster', cursive; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+  a:visited {
+    color: inherit; }
+  a:hover {
+    color: inherit; }
+
+#contacto {
+  background: url(../img/contacto.jpg);
+  background-size: 100% auto;
+  text-align: center; }
+  #contacto paddingTop {
+    padding-top: 6em; }
+  #contacto .social {
+    font-size: 4em;
+    transition: all 0.4s;
+    cursor: pointer; }
+    #contacto .social:hover {
+      color: #d8d68c;
+      text-shadow: 0px 0px 2px #000; }
+  #contacto p {
+    font-size: 1.5em;
+    color: #222;
+    text-shadow: 0px 0px 2px #000;
+    background-color: rgba(250, 250, 250, 0.7);
+    margin: 0; }
+  #contacto h3 {
+    font-size: 1.8em;
+    line-height: 1em;
+    background: #f7f7f7;
+    color: #d8d68c;
+    padding: 0.2em; }
+
+.centerCircle {
+  position: absolute;
+  z-index: 5;
+  top: 15%;
+  height: 100px;
+  width: 100px;
+  padding: 60px;
+  padding-bottom: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #f7f7f7;
+  text-align: center;
+  border-radius: 100px;
+  font-size: 1.5em;
+  left: -webkit-calc(49% - 100px);
+  border: solid 2px #d8d68c; }
+
+#Asociaciones {
+  position: relative; }
+
+#cascada {
+  background-image: url(../img/fondo70.jpg);
+  background-size: 100% auto; }
+  #cascada .precio {
+    width: 80%;
+    margin-left: 10.5%;
+    display: inline-block;
+    background-color: #7EAED9;
+    vertical-align: top;
+    padding: 2em 0.5%;
+    text-align: justify;
+    padding-top: 0;
+    border: solid 1px #ccc; }
+    #cascada .precio h3 {
+      font-size: 2em;
+      color: #d8d68c; }
+    #cascada .precio .cascada {
+      background-color: #d8d68c;
+      color: #fff;
+      font-size: 1.5em;
+      width: 50%;
+      margin: 0 auto;
+      padding: 0.5em; }
+      #cascada  .span{
+      
+      color: #d8d68c;
+      display:block;
+      margin: 0 auto;
+      text-align:center
+      }
+
+  #cascada h3 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+
+     }
+      #cascada p{
+        margin: 150px 150px;
+      }
+#cascada  img{
+  display:block;
+margin-left:auto;
+margin-right:auto;
+}        
+
+#descripciones {
+  background-image: url(../img/fondo1.jpg);
+  background-size: 100% auto;
+  text-align: center; }
+  #descripciones .precio {
+    width: 28%;
+    margin-left: 3.5%;
+    display: inline-block;
+    background-color: #7EAED9;
+    vertical-align: top;
+    padding: 2em 0.5%;
+    text-align: center;
+    padding-top: 0;
+    border: solid 1px #ccc; }
+    #descripciones .precio h3 {
+      font-size: 2em;
+      color: #d8d68c; }
+    #descripciones .precio .descripciones {
+      background-color: #d8d68c;
+      color: #fff;
+      font-size: 1.5em;
+      width: 50%;
+      margin: 0 auto;
+      padding: 0.5em; }
+
+#espiral {
+  background-image: url(../img/fondo30.jpg);
+  background-size: 100% auto; }
+  #espiral .precio {
+    width: 80%;
+    margin-left: 10.5%;
+    display: inline-block;
+    background-color: #7EAED9;
+    vertical-align: top;
+    padding: 2em 0.5%;
+    text-align: justify;
+    padding-top: 0;
+    border: solid 1px #ccc; }
+    #espiral .precio h3 {
+      font-size: 2em;
+      color: #d8d68c; }
+    #espiral .precio .espiral {
+      background-color: #d8d68c;
+      color: #fff;
+      font-size: 1.5em;
+      width: 50%;
+      margin: 0 auto;
+      padding: 0.5em; }
+      #espiral  .span{
+      
+      color: #d8d68c;
+      display:block;
+      margin: 0 auto;
+      text-align:center
+      }
+  #espiral h3 {
+    font-family: 'Lobster', cursive; 
+    text-align: center;}
+     #espiral p{
+        margin: 150px 150px;
+      }
+#espiral  img{
+  display:block;
+margin-left:auto;
+margin-right:auto;
+}        
+
+
+.fullScreen {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background-attachment: fixed; }
+
+#google_canvas {
+  width: 100%;
+  height: 400px;
+  border: solid 5px #eee;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8); }
+
+.half {
+  display: inline-block;
+  margin-right: -4px;
+  width: 50%;
+  vertical-align: top; }
+
+.halfAsso {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 0; }
+  .halfAsso img {
+    -webkit-filter: contrast(100%) blur(5px) brightness(20%);
+    transition: all 0.4s;
+    width: 100%; }
+    .halfAsso img:hover {
+      -webkit-filter: contrast(120%) blur(0px) brightness(105%); }
+
+header {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  top: -8.9em;
+  text-align: center;
+  transition: all 0.4s; }
+  header:hover {
+    top: -7em; }
+  header:before {
+    left: 0;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #25A7F2;
+    -webkit-transform: skew(0deg, 5deg);
+    -moz-transform: skew(0deg, 5deg);
+    -ms-transform: skew(0deg, 5deg);
+    -transform: skew(0deg, 5deg); }
+  header:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #25A7F2;
+    -webkit-transform: skew(0deg, -5deg);
+    -moz-transform: skew(0deg, -5deg);
+    -ms-transform: skew(0deg, -5deg);
+    -transform: skew(0deg, -5deg);
+    right: 0; }
+  header nav ul {
+    margin: 0;
+    color: white;
+    padding-bottom: 1em; }
+    header nav ul li {
+      display: inline-block;
+      padding: 0 10px; }
+  header #logo {
+    background-color: #25A7F2;
+    position: relative;
+    width: 15%;
+    text-align: center;
+    min-width: 100px;
+    max-width: 100%;
+    left: 43%;
+    height: 100px;
+    top: 144px;
+    z-index: 5;
+    border-radius: 2em 1em; }
+    header #logo img {
+      margin-top: -20px;
+      width: 100px; }
+
+.marginTop {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 7em; }
+
+.mensajePrincipal {
+  width: 40%;
+  padding-top: 10%;
+  color: #f7f7f7;
+  position: relative; }
+  .mensajePrincipal h2 {
+    color: #ededed;
+    font-size: 3em;
+    text-shadow: 5px 5px 20px #25A7F2; }
+  .mensajePrincipal .triangulo {
+    width: 0;
+    height: 0;
+    opacity: 0.7;
+    border-top: 100px solid transparent;
+    border-left: 190px solid black;
+    border-bottom: 100px solid transparent; }
+    .mensajePrincipal .triangulo span {
+      line-height: 2em;
+      display: block;
+      width: 130px;
+      top: -2em;
+      left: -180px;
+      position: relative; }
+  .mensajePrincipal p {
+    font-weight: bolder;
+    text-shadow: 5px 5px 20px #000; }
+
+.ribbon {
+  width: 117%;
+  height: 50px;
+  position: relative;
+  left: -25px;
+  top: 20px;
+  background: url(../img/ribbon.png);
+  background-size: 100% 100%; }
+
+.ribbon2 {
+  width: 117%;
+  height: 80px;
+  position: relative;
+  left: -75px;
+  top: 20px;
+  background: url(../img/ribbon.png);
+  background-size: 100% 100%; }
+
+#scrum {
+  background-image: url(../img/fondo60.jpg);
+  background-size: 100% auto; }
+  #scrum .precio {
+    width: 80%;
+    margin-left: 10.5%;
+    display: inline-block;
+    background-color: #7EAED9;
+    vertical-align: top;
+    padding: 2em 0.5%;
+    text-align: justify;
+    padding-top: 0;
+    border: solid 1px #ccc; }
+    #scrum .precio h3 {
+      font-size: 2em;
+      color: #d8d68c; }
+    #scrum .precio .scrum {
+      background-color: #d8d68c;
+      color: #fff;
+      font-size: 1.5em;
+      width: 50%;
+      margin: 0 auto;
+      padding: 0.5em; }
+  #scrum  .span{
+      
+      color: #d8d68c;
+      display:block;
+      margin: 0 auto;
+      text-align:center
+      }
+
+     #scrum h3 {
+    font-family: 'Lobster', cursive; 
+    text-align: center;}
+     #scrum p{
+        margin: 150px 150px;
+      }
+#scrum  img{
+  display:block;
+margin-left:auto;
+margin-right:auto;
+}     
+
+.slider_container {
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  left: 0;
+  z-index: -2;
+  background-color: #000; }
+  .slider_container .slideContainer {
+    white-space: nowrap;
+    height: 100%; }
+    .slider_container .slideContainer .slide {
+      display: inline-block;
+      background-color: #fff;
+      margin-right: -4px;
+      vertical-align: top;
+      background-size: 100%;
+      background-position: bottom; }
+
+.social {
+  font-family: 'Socialico'; }
+
+@media (max-width: 960px) {
+  header {
+    background-color: #000; }
+    header nav ul li {
+      opacity: 0;
+      transition: all 0.4s; }
+    header #logo {
+      padding: 1em;
+      transition: all 1s; }
+    header:active nav ul {
+      height: 130px; }
+    header:active nav ul li {
+      opacity: 1; }
+    header:active #logo {
+      top: 300px; }
+
+  .fullScreen {
+    min-height: 100%;
+    height: auto; }
+
+  #index {
+    background: url(../img/slider1-movil.jpg);
+    background-size: auto 100%; }
+
+  #contacto {
+    background: url(../img/contacto-movil.jpg);
+    background-size: auto 100%; }
+
+  #cascada {
+    background-size: auto 100%;
+    background: url(../img/fondo70-movil.jpg);
+    height: 100%; }
+    #cascada .precio {
+      width: 45%;
+      margin: 0 auto; }
+
+  #espiral {
+    background-size: auto 100%;
+    background: url(../img/fondo30-movil.jpg);
+    height: 100%; }
+    #espiral .precio {
+      width: 45%;
+      margin: 0 auto; }
+
+  #scrum {
+    background-size: auto 100%;
+    background: url(../img/fondo60-movil.jpg);
+    height: 100%; }
+    #scrum .precio {
+      width: 45%;
+      margin: 0 auto; }
+
+  #go_up {
+    display: none; }
+
+  .img-principal {
+    display: none; }
+
+  .half {
+    display: block;
+    width: 100%;
+    top: 0px; }
+
+  .slideContainer {
+    display: none; } }
+@media (max-width: 600px) {
+  .fullScreen:nth-of-type(1) {
+    background: url(../img/intro-movil.jpg);
+    background-size: auto 100%; }
+
+  .hidePhone {
+    display: none; }
+
+  .mensajePrincipal {
+    margin-top: 0;
+    font-size: 1em;
+    padding: 0;
+    width: 100%; }
+
+  * {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word; }
+
+  #main, .down {
+    width: 100%; }
+
+  [class*="span"],
+  .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0; }
+
+  .posts article {
+    display: block;
+    width: 100%; }
+
+  #cascada {
+    height: auto; }
+
+  #cascada .precio {
+    width: 100%;
+    display: block;
+    margin: 0; }
+
+  #espiral {
+    height: auto; }
+
+  #espiral .precio {
+    width: 100%;
+    display: block;
+    margin: 0; }
+
+  #scrum {
+    height: auto; }
+
+  #scrum .precio {
+    width: 100%;
+    display: block;
+    margin: 0; }
+
+  header nav ul li {
+    width: 80%;
+    margin: 0 auto;
+    display: block; }
+
+  .slideContainer {
+    display: none; } }
